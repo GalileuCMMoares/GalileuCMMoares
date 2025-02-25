@@ -40,6 +40,7 @@
     <td>
       <p align="center">
         <img src="https://skillicons.dev/icons?i=django" alt="Django" height="30"/>
+        <img src="https://skillicons.dev/icons?i=spring" alt="Springboot" height="30"/>
       </p>
     </td>
     <td>
@@ -55,6 +56,7 @@
     <td colspan="3">
       <p align="center">
         <img src="https://skillicons.dev/icons?i=git" alt="Git" height="30"/>
+        <img src="https://skillicons.dev/icons?i=intelij" alt="Inteli J" height="30"/>
         <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" height="30"/>
         <img src="https://skillicons.dev/icons?i=eclipse" alt="Eclipse" height="30"/>
       </p>
