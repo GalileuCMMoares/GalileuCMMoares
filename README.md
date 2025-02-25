@@ -56,7 +56,7 @@
     <td colspan="3">
       <p align="center">
         <img src="https://skillicons.dev/icons?i=git" alt="Git" height="30"/>
-        <img src="https://skillicons.dev/icons?i=intellij" alt="Intelli J" height="30"/>
+        <img src="https://skillicons.dev/icons?i=idea" alt="Intelli J" height="30"/>
         <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" height="30"/>
         <img src="https://skillicons.dev/icons?i=eclipse" alt="Eclipse" height="30"/>
       </p>
