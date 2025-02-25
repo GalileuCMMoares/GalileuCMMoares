@@ -66,7 +66,7 @@
 
 ### 🌟 What Makes Me Unique?
 
-- **Lifelong Learner**: Always exploring new technologies. Currently diving into **Java**,**C++**, and **Python**.  
+- **Lifelong Learner**: Always exploring new technologies. Currently diving into **Java**, **C++**, and **Python**.  
 - **Team Player**: Love collaborating on projects, sharing ideas, and delivering results that make a difference.  
 - **Passionate about Security**: Committed to writing clean, secure, and efficient code.
 
