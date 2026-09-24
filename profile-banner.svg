@@ -1,58 +1,133 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
   <title id="title">Native mobile developer banner</title>
-  <desc id="description">Midnight-blue banner with Swift, Kotlin, Android, and Wear OS, alongside abstract phone and watch outlines.</desc>
+  <desc id="description">A layered midnight-blue illustration of an app interface, smartphone, and Wear OS watch, with Swift and Kotlin accents.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#061326" />
-      <stop offset="0.55" stop-color="#0A1D38" />
-      <stop offset="1" stop-color="#102C4C" />
+      <stop offset="0" stop-color="#050F20" />
+      <stop offset="0.52" stop-color="#091B35" />
+      <stop offset="1" stop-color="#102E50" />
     </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#42A5F5" stop-opacity="0.36" />
-      <stop offset="1" stop-color="#42A5F5" stop-opacity="0" />
+    <radialGradient id="aurora" cx="78%" cy="47%" r="52%">
+      <stop offset="0" stop-color="#2369A5" stop-opacity="0.42" />
+      <stop offset="0.54" stop-color="#123C69" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#06162B" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4F9FFF" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#5CC8FF" stop-opacity="0.75" />
+      <stop offset="1" stop-color="#8A9DFF" stop-opacity="0.18" />
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#9ACBFF" stroke-opacity="0.055" stroke-width="1" />
+    <linearGradient id="deviceFrame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#72C8FF" stop-opacity="0.88" />
+      <stop offset="0.38" stop-color="#355F91" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#89A9F8" stop-opacity="0.72" />
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#142E50" />
+      <stop offset="1" stop-color="#09182E" />
+    </linearGradient>
+    <linearGradient id="glassCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17385B" stop-opacity="0.96" />
+      <stop offset="1" stop-color="#0B1D35" stop-opacity="0.92" />
+    </linearGradient>
+    <linearGradient id="activeCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B4F7D" />
+      <stop offset="1" stop-color="#122D51" />
+    </linearGradient>
+    <pattern id="microgrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#A9D6FF" stroke-opacity="0.035" stroke-width="1" />
+      <circle cx="1" cy="1" r="1" fill="#A9D6FF" fill-opacity="0.08" />
     </pattern>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="32" />
+    <filter id="bloom" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24" />
+    </filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#010817" flood-opacity="0.55" />
     </filter>
   </defs>
 
   <rect width="1200" height="300" rx="24" fill="url(#background)" />
-  <rect width="1200" height="300" rx="24" fill="url(#grid)" />
-  <circle cx="1000" cy="72" r="180" fill="url(#glow)" filter="url(#softGlow)" />
-  <path d="M0 250C240 210 370 318 625 263s350-109 575-42v79H0Z" fill="#102B49" fill-opacity="0.52" />
-  <path d="M0 268c240-40 370 58 625 3s350-109 575-42" fill="none" stroke="#4DA8FF" stroke-opacity="0.22" stroke-width="2" />
+  <rect width="1200" height="300" rx="24" fill="url(#microgrid)" />
+  <rect width="1200" height="300" rx="24" fill="url(#aurora)" />
+  <ellipse cx="1015" cy="165" rx="250" ry="145" fill="#267DCE" fill-opacity="0.16" filter="url(#bloom)" />
+  <circle cx="1020" cy="153" r="148" fill="none" stroke="#69BFFF" stroke-opacity="0.09" stroke-width="1" />
+  <circle cx="1020" cy="153" r="177" fill="none" stroke="#69BFFF" stroke-opacity="0.055" stroke-width="1" />
+  <path d="M0 246C185 205 357 292 558 266s399-141 642-72v106H0Z" fill="#0B2441" fill-opacity="0.74" />
+  <path d="M0 264c193-41 360 50 565 9s394-133 635-69" fill="none" stroke="url(#trail)" stroke-width="2" />
 
   <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
-    <text x="72" y="95" fill="#83C7FF" font-size="15" font-weight="700" letter-spacing="4">NATIVE MOBILE DEVELOPER</text>
-    <text x="68" y="158" fill="#F1F7FF" font-size="48" font-weight="700" letter-spacing="-1">Swift <tspan fill="#60B8FF">·</tspan> Kotlin</text>
-    <text x="72" y="196" fill="#B5C9E2" font-size="18" font-weight="500" letter-spacing="1">iOS  ·  Android  ·  Wear OS</text>
-    <rect x="72" y="224" width="116" height="4" rx="2" fill="#55B8FF" />
-    <circle cx="203" cy="226" r="3" fill="#55B8FF" fill-opacity="0.6" />
-    <circle cx="216" cy="226" r="3" fill="#55B8FF" fill-opacity="0.34" />
+    <rect x="72" y="60" width="42" height="3" rx="1.5" fill="#61BFFF" />
+    <text x="72" y="96" fill="#91D2FF" font-size="14" font-weight="700" letter-spacing="4">NATIVE MOBILE</text>
+    <text x="68" y="158" fill="#F3F8FF" font-size="49" font-weight="700" letter-spacing="-1.5">Swift <tspan fill="#61BFFF">&amp;</tspan> Kotlin</text>
+    <text x="72" y="197" fill="#B8CAE1" font-size="18" font-weight="500" letter-spacing="1">iOS  ·  Android  ·  Wear OS</text>
+    <g transform="translate(72 224)">
+      <rect width="134" height="27" rx="13.5" fill="#102A49" stroke="#3D79AA" stroke-opacity="0.58" />
+      <circle cx="15" cy="13.5" r="4" fill="#59C2FF" />
+      <text x="27" y="18" fill="#D6EAFF" font-size="11" font-weight="600" letter-spacing="1.3">APP DEVELOPMENT</text>
+    </g>
   </g>
 
-  <g fill="none" stroke="#8CCBFF" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="838" y="36" width="166" height="228" rx="27" fill="#0A1A31" fill-opacity="0.72" stroke-opacity="0.72" stroke-width="2" />
-    <rect x="851" y="52" width="140" height="195" rx="17" fill="#0D2441" stroke-opacity="0.34" />
-    <path d="M894 43h54" stroke-opacity="0.5" stroke-width="3" />
-    <circle cx="921" cy="232" r="5" stroke-opacity="0.6" />
-    <path d="M873 91h96M873 105h62" stroke-opacity="0.38" stroke-width="3" />
-    <rect x="873" y="128" width="96" height="53" rx="10" fill="#15395F" stroke-opacity="0.44" />
-    <path d="M885 153h23l9-12 11 22 8-10h21" stroke="#5CB8FF" stroke-opacity="0.92" stroke-width="3" />
-    <rect x="873" y="194" width="43" height="30" rx="8" fill="#173B60" stroke-opacity="0.42" />
-    <rect x="926" y="194" width="43" height="30" rx="8" fill="#173B60" stroke-opacity="0.42" />
-
-    <path d="M1063 81c0-14 11-25 25-25h22c14 0 25 11 25 25v22h-72Z" fill="#153453" stroke-opacity="0.64" stroke-width="2" />
-    <rect x="1052" y="98" width="94" height="116" rx="36" fill="#0A1A31" stroke-opacity="0.84" stroke-width="2" />
-    <path d="M1063 210v21c0 14 11 25 25 25h22c14 0 25-11 25-25v-21" fill="#153453" stroke-opacity="0.64" stroke-width="2" />
-    <circle cx="1099" cy="156" r="26" stroke="#5CB8FF" stroke-opacity="0.92" stroke-width="3" />
-    <path d="M1099 140v17l12 8" stroke="#5CB8FF" stroke-opacity="0.92" stroke-width="3" />
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M814 116c30-25 34-24 54-18m139 31c27-16 37-13 54-2m-91 96c32 10 47 7 73-4" stroke="#59BFFF" stroke-opacity="0.34" stroke-width="1.5" />
+    <path d="M800 115h23m184 14h31m-126 105h28" stroke="url(#trail)" stroke-width="2" />
+    <circle cx="814" cy="116" r="3" fill="#84D4FF" stroke="none" />
+    <circle cx="1007" cy="129" r="3" fill="#84D4FF" stroke="none" />
+    <circle cx="940" cy="234" r="3" fill="#A2B6FF" stroke="none" />
   </g>
 
-  <circle cx="785" cy="80" r="3" fill="#8CCBFF" fill-opacity="0.75" />
-  <circle cx="1152" cy="64" r="4" fill="#8CCBFF" fill-opacity="0.8" />
-  <circle cx="1165" cy="236" r="3" fill="#8CCBFF" fill-opacity="0.6" />
+  <g filter="url(#shadow)" transform="rotate(-4 774 116)">
+    <rect x="704" y="73" width="132" height="83" rx="16" fill="url(#glassCard)" stroke="#71BFFF" stroke-opacity="0.48" />
+    <rect x="716" y="85" width="34" height="34" rx="11" fill="#1D4D7A" />
+    <path d="M728 108l6-15 8 15m-11-5h7" fill="none" stroke="#B8E6FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="760" y="89" width="57" height="5" rx="2.5" fill="#C9E7FF" fill-opacity="0.82" />
+    <rect x="760" y="100" width="42" height="4" rx="2" fill="#7DA8D0" fill-opacity="0.68" />
+    <rect x="716" y="129" width="67" height="5" rx="2.5" fill="#5ABFFF" fill-opacity="0.76" />
+    <rect x="788" y="129" width="29" height="5" rx="2.5" fill="#5ABFFF" fill-opacity="0.28" />
+  </g>
+
+  <g filter="url(#shadow)" transform="rotate(-5 919 150)">
+    <rect x="840" y="33" width="158" height="234" rx="31" fill="#07162B" stroke="url(#deviceFrame)" stroke-width="2.2" />
+    <rect x="850" y="45" width="138" height="210" rx="23" fill="url(#screen)" stroke="#8ACFFF" stroke-opacity="0.24" />
+    <rect x="893" y="52" width="52" height="6" rx="3" fill="#020B17" />
+    <text x="865" y="77" fill="#DDEEFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="10" font-weight="600">9:41</text>
+    <circle cx="970" cy="73" r="2.6" fill="#85D4FF" />
+    <rect x="865" y="89" width="42" height="5" rx="2.5" fill="#7FB8E8" fill-opacity="0.46" />
+    <rect x="865" y="99" width="70" height="4" rx="2" fill="#7FB8E8" fill-opacity="0.23" />
+    <rect x="862" y="113" width="113" height="62" rx="13" fill="url(#activeCard)" stroke="#64BFFF" stroke-opacity="0.44" />
+    <text x="875" y="131" fill="#B6DBF7" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="8" font-weight="600" letter-spacing="0.9">TODAY</text>
+    <text x="875" y="150" fill="#F4FAFF" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Focus time</text>
+    <path d="M875 162h18l7-8 8 12 7-10h13l7-7 7 13 9-6h12" fill="none" stroke="#59C6FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+    <rect x="862" y="184" width="51" height="53" rx="11" fill="#122A49" stroke="#74BFEF" stroke-opacity="0.22" />
+    <rect x="921" y="184" width="54" height="53" rx="11" fill="#122A49" stroke="#74BFEF" stroke-opacity="0.22" />
+    <circle cx="878" cy="201" r="5" fill="#61BEFF" fill-opacity="0.8" />
+    <rect x="872" y="213" width="30" height="4" rx="2" fill="#C0D9EF" fill-opacity="0.65" />
+    <rect x="872" y="222" width="22" height="3" rx="1.5" fill="#7796B8" fill-opacity="0.56" />
+    <circle cx="937" cy="201" r="5" fill="#9B9FFF" fill-opacity="0.84" />
+    <rect x="930" y="213" width="35" height="4" rx="2" fill="#C0D9EF" fill-opacity="0.65" />
+    <rect x="930" y="222" width="25" height="3" rx="1.5" fill="#7796B8" fill-opacity="0.56" />
+  </g>
+
+  <g filter="url(#shadow)" transform="rotate(6 1091 158)">
+    <path d="M1068 97V77c0-13 10-23 23-23h10c13 0 23 10 23 23v20" fill="#142F50" stroke="url(#deviceFrame)" stroke-width="2" />
+    <path d="M1068 218v19c0 13 10 23 23 23h10c13 0 23-10 23-23v-19" fill="#142F50" stroke="url(#deviceFrame)" stroke-width="2" />
+    <rect x="1053" y="91" width="86" height="135" rx="36" fill="#06152A" stroke="url(#deviceFrame)" stroke-width="2.4" />
+    <rect x="1060" y="98" width="72" height="121" rx="30" fill="url(#screen)" stroke="#9AD8FF" stroke-opacity="0.22" />
+    <circle cx="1096" cy="158" r="27" fill="#0D2746" stroke="#3B84BD" stroke-opacity="0.65" stroke-width="2" />
+    <circle cx="1096" cy="158" r="21" fill="none" stroke="#274C76" stroke-width="4" />
+    <path d="M1096 137a21 21 0 0 1 19 12" fill="none" stroke="#59C6FF" stroke-linecap="round" stroke-width="4" />
+    <path d="M1096 145v13l10 6" fill="none" stroke="#E0F2FF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
+    <circle cx="1096" cy="158" r="2.5" fill="#70CAFF" />
+    <rect x="1083" y="187" width="26" height="3" rx="1.5" fill="#92B4D5" fill-opacity="0.52" />
+  </g>
+
+  <g fill="#B4DEFF">
+    <circle cx="690" cy="55" r="2" fill-opacity="0.54" />
+    <circle cx="824" cy="47" r="2.5" fill-opacity="0.7" />
+    <circle cx="1019" cy="53" r="2" fill-opacity="0.62" />
+    <circle cx="1156" cy="86" r="3" fill-opacity="0.66" />
+    <circle cx="1169" cy="233" r="2.4" fill-opacity="0.7" />
+    <circle cx="1031" cy="259" r="1.8" fill-opacity="0.52" />
+    <path d="M778 197l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill-opacity="0.7" />
+    <path d="M1170 139l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" fill-opacity="0.55" />
+  </g>
 </svg>
