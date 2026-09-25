@@ -53,7 +53,7 @@ I'm Galileu, a mobile developer in Recife and an application development intern 
 ## Tools I use
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=swift,kotlin,androidstudio,xcode,java,spring,react,ts&amp;perline=8&amp;theme=light" alt="Swift, Kotlin, Android Studio, Xcode, Java, Spring, React, and TypeScript" />
+  <img src="https://skillicons.dev/icons?i=swift,kotlin,androidstudio,java,spring,react,ts&amp;perline=7&amp;theme=light" alt="Swift, Kotlin, Android Studio, Java, Spring, React, and TypeScript" />
 </p>
 
 <p align="center">
