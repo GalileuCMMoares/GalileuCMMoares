@@ -5,7 +5,7 @@
 <h1 align="center">Galileu Calaça Menezes de Moraes</h1>
 
 <p align="center">
-  <strong>Native Mobile Developer · Swift &amp; Kotlin</strong><br />
+  <strong>Native mobile, from iPhone to wrist.</strong><br />
   iOS · Android · Wear OS
 </p>
 
@@ -19,11 +19,11 @@
 
 ---
 
-## A little about me
+## My work, from phone to wrist
 
-I'm a native mobile developer and an application development intern at CESAR. Over the past year, I've worked on apps for real clients, including Swift for iOS and Kotlin for Wear OS. I also build web projects, while mobile remains my main focus.
+I'm Galileu, a mobile developer in Recife and an application development intern at CESAR. Over the past year, I've worked on two Swift apps now in production and a Kotlin app for Wear OS for a real client. That mix of phones and wearables is the clearest snapshot of my work: native mobile. I also build web projects, but iOS and Android are my main focus.
 
-## Client work
+## Built for clients
 
 <table align="center" width="100%">
   <tr>
@@ -73,12 +73,7 @@ I'm a native mobile developer and an application development intern at CESAR. Ov
   </tr>
 </table>
 
-<p align="center">
-  <strong>Another web project:</strong>
-  <a href="https://github.com/GalileuCMMoares/API-de-produtos">API-de-produtos</a> · A Spring Boot REST API built while learning Java backend development.
-</p>
-
-## Core technologies
+## Tools I use
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=swift,kotlin,androidstudio,xcode,java,spring,react,ts&amp;perline=8&amp;theme=light" alt="Swift, Kotlin, Android Studio, Xcode, Java, Spring, React, and TypeScript" />
@@ -90,9 +85,3 @@ I'm a native mobile developer and an application development intern at CESAR. Ov
 </p>
 
 ---
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/galileu-cala%C3%A7a-369726241/">
-    <img src="https://img.shields.io/badge/Reach%20out-LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Reach out on LinkedIn" />
-  </a>
-</p>
