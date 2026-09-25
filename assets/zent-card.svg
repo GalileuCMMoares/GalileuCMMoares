@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-labelledby="title desc">
+  <title id="title">Zent Android study app</title>
+  <desc id="desc">Organize study material, generate quizzes and plan spaced reviews. Built with Kotlin, Jetpack Compose and Firebase.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07162B" />
+      <stop offset="1" stop-color="#12375C" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5ED0FF" />
+      <stop offset="1" stop-color="#818EFF" />
+    </linearGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0v22" fill="none" stroke="#B6DEFF" stroke-opacity=".045" />
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#020813" flood-opacity=".4" />
+    </filter>
+  </defs>
+  <rect width="600" height="330" rx="24" fill="url(#bg)" />
+  <rect width="600" height="330" rx="24" fill="url(#grid)" />
+  <rect x="1" y="1" width="598" height="328" rx="23" fill="none" stroke="#68B8F0" stroke-opacity=".35" />
+  <circle cx="499" cy="153" r="143" fill="#357BB2" opacity=".14" />
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+    <rect x="28" y="27" width="119" height="25" rx="12.5" fill="#15395A" stroke="#64BFFF" stroke-opacity=".35" />
+    <circle cx="43" cy="39.5" r="3.2" fill="#65D2FF" />
+    <text x="54" y="44" fill="#BCE7FF" font-size="10" font-weight="700" letter-spacing="1.2">01  /  ANDROID</text>
+    <text x="28" y="112" fill="#F2F8FF" font-size="52" font-weight="700" letter-spacing="-2">Zent</text>
+    <text x="31" y="141" fill="#9EC8E7" font-size="13" font-weight="700" letter-spacing="1.8">A STUDY FLOW THAT STICKS</text>
+    <text x="31" y="180" fill="#D4E6F5" font-size="14">Materials become quizzes,</text>
+    <text x="31" y="201" fill="#D4E6F5" font-size="14">then spaced review sessions.</text>
+    <g transform="translate(30 240)">
+      <rect width="74" height="27" rx="13.5" fill="#0A1B30" stroke="#6DC8FF" stroke-opacity=".55" />
+      <text x="37" y="18" text-anchor="middle" fill="#D7EEFF" font-size="10" font-weight="600" letter-spacing=".6">KOTLIN</text>
+      <rect x="82" width="109" height="27" rx="13.5" fill="#0A1B30" stroke="#6DC8FF" stroke-opacity=".55" />
+      <text x="136.5" y="18" text-anchor="middle" fill="#D7EEFF" font-size="10" font-weight="600" letter-spacing=".4">COMPOSE</text>
+      <rect x="199" width="89" height="27" rx="13.5" fill="#0A1B30" stroke="#6DC8FF" stroke-opacity=".55" />
+      <text x="243.5" y="18" text-anchor="middle" fill="#D7EEFF" font-size="10" font-weight="600" letter-spacing=".5">FIREBASE</text>
+    </g>
+    <text x="31" y="303" fill="#6E9ABB" font-size="10" font-weight="600" letter-spacing="1.1">PERSONAL PROJECT  ·  PUBLIC REPOSITORY</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(5 461 167)">
+    <rect x="363" y="66" width="198" height="212" rx="22" fill="#061327" stroke="#82CFFF" stroke-opacity=".74" stroke-width="2" />
+    <rect x="374" y="78" width="176" height="188" rx="15" fill="#102946" />
+    <rect x="394" y="93" width="93" height="6" rx="3" fill="#E0F3FF" opacity=".9" />
+    <rect x="394" y="106" width="58" height="4" rx="2" fill="#78A9CE" opacity=".65" />
+    <rect x="391" y="125" width="142" height="55" rx="12" fill="#19466D" stroke="#5CCAFF" stroke-opacity=".4" />
+    <path d="M408 157l11-15 12 8 12-12 13 18 12-9 15 11 14-18 18 17" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="422" cy="146" r="3.5" fill="#82E1FF" />
+    <rect x="391" y="193" width="65" height="53" rx="10" fill="#163858" />
+    <rect x="465" y="193" width="68" height="53" rx="10" fill="#163858" />
+    <path d="M407 226v-13h10v13m7 0v-23h10v23m7 0v-17h10v17" fill="none" stroke="#74CFFF" stroke-width="4" stroke-linecap="round" />
+    <circle cx="482" cy="210" r="5" fill="#62CCFF" />
+    <rect x="492" y="207" width="28" height="4" rx="2" fill="#B6DFF5" opacity=".8" />
+    <rect x="481" y="221" width="39" height="4" rx="2" fill="#6387A8" />
+    <rect x="481" y="231" width="25" height="4" rx="2" fill="#6387A8" />
+  </g>
+  <path d="M334 85v162" stroke="#8ACDF7" stroke-opacity=".2" stroke-dasharray="3 7" />
+</svg>

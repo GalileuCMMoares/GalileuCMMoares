@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-labelledby="title desc">
+  <title id="title">TaskFlow team task manager</title>
+  <desc id="desc">A Jira-style team task manager with Spring Boot, PostgreSQL, Google sign-in and a React TypeScript interface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07162B" />
+      <stop offset="1" stop-color="#102E52" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#69D5FF" />
+      <stop offset="1" stop-color="#9A8CFF" />
+    </linearGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0v22" fill="none" stroke="#B6DEFF" stroke-opacity=".045" />
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#020813" flood-opacity=".4" />
+    </filter>
+  </defs>
+  <rect width="600" height="330" rx="24" fill="url(#bg)" />
+  <rect width="600" height="330" rx="24" fill="url(#grid)" />
+  <rect x="1" y="1" width="598" height="328" rx="23" fill="none" stroke="#68B8F0" stroke-opacity=".35" />
+  <circle cx="108" cy="284" r="139" fill="#6948BD" opacity=".11" />
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+    <rect x="28" y="27" width="136" height="25" rx="12.5" fill="#182E56" stroke="#8C92FF" stroke-opacity=".5" />
+    <circle cx="43" cy="39.5" r="3.2" fill="#A69BFF" />
+    <text x="54" y="44" fill="#D6DCFF" font-size="10" font-weight="700" letter-spacing="1.1">02  /  FULL STACK</text>
+    <text x="28" y="112" fill="#F2F8FF" font-size="48" font-weight="700" letter-spacing="-1.7">TaskFlow</text>
+    <text x="31" y="141" fill="#AEB8F0" font-size="13" font-weight="700" letter-spacing="1.8">A BOARD FOR THE WHOLE TEAM</text>
+    <text x="31" y="180" fill="#D4E6F5" font-size="14">Tasks, ownership and progress</text>
+    <text x="31" y="201" fill="#D4E6F5" font-size="14">in one full-stack workflow.</text>
+    <g transform="translate(30 240)">
+      <rect width="106" height="27" rx="13.5" fill="#0A1B30" stroke="#8E9AFF" stroke-opacity=".62" />
+      <text x="53" y="18" text-anchor="middle" fill="#E0E3FF" font-size="10" font-weight="600" letter-spacing=".5">SPRING BOOT</text>
+      <rect x="114" width="78" height="27" rx="13.5" fill="#0A1B30" stroke="#8E9AFF" stroke-opacity=".62" />
+      <text x="153" y="18" text-anchor="middle" fill="#E0E3FF" font-size="10" font-weight="600" letter-spacing=".5">REACT</text>
+      <rect x="200" width="99" height="27" rx="13.5" fill="#0A1B30" stroke="#8E9AFF" stroke-opacity=".62" />
+      <text x="249.5" y="18" text-anchor="middle" fill="#E0E3FF" font-size="10" font-weight="600" letter-spacing=".5">TYPESCRIPT</text>
+    </g>
+    <text x="31" y="303" fill="#7A90B9" font-size="10" font-weight="600" letter-spacing="1.1">WEB PROJECT  ·  TEAM TASK MANAGEMENT</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(-4 458 170)">
+    <rect x="351" y="75" width="217" height="190" rx="20" fill="#061327" stroke="#86CFFF" stroke-opacity=".75" stroke-width="2" />
+    <rect x="362" y="87" width="195" height="166" rx="13" fill="#0F2743" />
+    <rect x="378" y="102" width="98" height="6" rx="3" fill="#DDF0FF" opacity=".85" />
+    <rect x="525" y="100" width="16" height="12" rx="6" fill="#5ECFFF" opacity=".8" />
+    <g>
+      <rect x="375" y="124" width="53" height="112" rx="9" fill="#142F4E" />
+      <rect x="434" y="124" width="53" height="112" rx="9" fill="#142F4E" />
+      <rect x="493" y="124" width="53" height="112" rx="9" fill="#142F4E" />
+      <text x="382" y="140" fill="#93B6D4" font-size="7" font-weight="700" letter-spacing=".5">TO DO</text>
+      <text x="441" y="140" fill="#93B6D4" font-size="7" font-weight="700" letter-spacing=".4">DOING</text>
+      <text x="500" y="140" fill="#93B6D4" font-size="7" font-weight="700" letter-spacing=".4">DONE</text>
+      <rect x="381" y="150" width="41" height="31" rx="5" fill="#1C4770" stroke="#66BFFF" stroke-opacity=".38" />
+      <rect x="386" y="157" width="28" height="3" rx="1.5" fill="#D2E9FA" opacity=".85" />
+      <rect x="386" y="165" width="20" height="3" rx="1.5" fill="#719AC0" />
+      <circle cx="391" cy="174" r="3" fill="#69CFFF" />
+      <rect x="440" y="150" width="41" height="38" rx="5" fill="#2C4070" stroke="#918EFF" stroke-opacity=".48" />
+      <rect x="445" y="157" width="29" height="3" rx="1.5" fill="#D2E9FA" opacity=".85" />
+      <rect x="445" y="165" width="23" height="3" rx="1.5" fill="#8F9BBC" />
+      <rect x="445" y="174" width="18" height="3" rx="1.5" fill="#8F9BBC" />
+      <circle cx="450" cy="182" r="3" fill="#AE9DFF" />
+      <rect x="499" y="150" width="41" height="28" rx="5" fill="#1B4963" stroke="#61D7CF" stroke-opacity=".35" />
+      <rect x="504" y="157" width="29" height="3" rx="1.5" fill="#D2E9FA" opacity=".85" />
+      <rect x="504" y="165" width="21" height="3" rx="1.5" fill="#79B7C0" />
+      <circle cx="509" cy="173" r="3" fill="#68DDD4" />
+      <rect x="381" y="188" width="41" height="37" rx="5" fill="#1A3858" />
+      <rect x="386" y="195" width="29" height="3" rx="1.5" fill="#D2E9FA" opacity=".72" />
+      <rect x="386" y="203" width="19" height="3" rx="1.5" fill="#719AC0" />
+      <circle cx="391" cy="217" r="3" fill="#69CFFF" />
+    </g>
+  </g>
+  <path d="M327 85v162" stroke="#9BB2F7" stroke-opacity=".23" stroke-dasharray="3 7" />
+</svg>

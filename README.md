@@ -25,20 +25,9 @@ I'm Galileu, a mobile developer in Recife and an application development intern 
 
 ## Built for clients
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" valign="top" width="50%">
-      <h3>iOS · Swift</h3>
-      <p><strong>Two apps in production</strong><br />Private repositories</p>
-      <img src="https://img.shields.io/badge/Swift-iOS-0B2B4A?style=flat-square&amp;logo=swift&amp;logoColor=F05138" alt="Swift for iOS" />
-    </td>
-    <td align="center" valign="top" width="50%">
-      <h3>Wear OS · Kotlin</h3>
-      <p><strong>Native wearable app</strong><br />Built for a real client</p>
-      <img src="https://img.shields.io/badge/Kotlin-Wear%20OS-0B2B4A?style=flat-square&amp;logo=kotlin&amp;logoColor=7F52FF" alt="Kotlin for Wear OS" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/client-work.svg" alt="Two Swift iOS apps in production, plus one Kotlin app built for a Wear OS client." width="100%" />
+</p>
 
 ## Public projects
 
@@ -46,29 +35,17 @@ I'm Galileu, a mobile developer in Recife and an application development intern 
   <tr>
     <td align="center" valign="top" width="50%">
       <a href="https://github.com/GalileuCMMoares/Zent">
-        <img src="https://raw.githubusercontent.com/GalileuCMMoares/Zent/main/app/src/main/ic_launcher-playstore.png" width="92" alt="Zent app icon" />
+        <img src="assets/zent-card.svg" alt="Zent · Android study app built with Kotlin, Jetpack Compose, and Firebase." width="100%" />
       </a>
-      <h3><a href="https://github.com/GalileuCMMoares/Zent">Zent</a></h3>
-      <p>An Android study app to organize materials, create quizzes from text or documents, and plan spaced reviews.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Kotlin-0B2B4A?style=flat-square&amp;logo=kotlin&amp;logoColor=7F52FF" alt="Kotlin" />
-        <img src="https://img.shields.io/badge/Jetpack%20Compose-0B2B4A?style=flat-square&amp;logo=jetpackcompose&amp;logoColor=4285F4" alt="Jetpack Compose" />
-        <img src="https://img.shields.io/badge/Firebase-0B2B4A?style=flat-square&amp;logo=firebase&amp;logoColor=FFCA28" alt="Firebase" />
-      </p>
-      <p><a href="https://github.com/GalileuCMMoares/Zent">Explore the repository →</a></p>
+      <p>An Android study app for organizing materials, generating quizzes, and planning spaced reviews.</p>
+      <p><a href="https://github.com/GalileuCMMoares/Zent">Explore Zent →</a></p>
     </td>
     <td align="center" valign="top" width="50%">
-      <p>
-        <img src="https://skillicons.dev/icons?i=java,spring,react,ts&amp;perline=4&amp;theme=light" height="48" alt="Java, Spring Boot, React, and TypeScript" />
-      </p>
-      <h3><a href="https://github.com/GalileuCMMoares/TaskFlow">TaskFlow</a></h3>
+      <a href="https://github.com/GalileuCMMoares/TaskFlow">
+        <img src="assets/taskflow-card.svg" alt="TaskFlow · Full-stack team task manager using Spring Boot, React, and TypeScript." width="100%" />
+      </a>
       <p>A Jira-style team task manager with a Spring Boot API, PostgreSQL, Google sign-in, and a React/TypeScript interface.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Java%2021-0B2B4A?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java 21" />
-        <img src="https://img.shields.io/badge/Spring%20Boot-0B2B4A?style=flat-square&amp;logo=springboot&amp;logoColor=6DB33F" alt="Spring Boot" />
-        <img src="https://img.shields.io/badge/React%20%2B%20TypeScript-0B2B4A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React and TypeScript" />
-      </p>
-      <p><a href="https://github.com/GalileuCMMoares/TaskFlow">Explore the repository →</a></p>
+      <p><a href="https://github.com/GalileuCMMoares/TaskFlow">Explore TaskFlow →</a></p>
     </td>
   </tr>
 </table>
